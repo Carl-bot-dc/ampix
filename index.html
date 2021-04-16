@@ -4,7 +4,6 @@
         <title>Ampix</title>
         <meta charset="utf-8">
         <link href="\assets/icon2.ico" rel="icon">
-        <link href="\style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -47,4 +46,154 @@
             </div>
         </footer>
     </body>
+    <head>
+        <style type="text/css">
+            .body1 {
+      font-family: 'Poppins', sans-serif;
+      color: whitesmoke;
+      line-height: 1.6;
+  }
+  .menu1 {
+      background: linear-gradient(-45deg, #EE7752, #d63535, #23A6D5, #23D5AB);
+      background-size: 400% 400%;
+      animation: change 10s ease-in-out infinite;
+      padding-top: 1px;
+      padding-bottom: 5px;
+      border-bottom: rgba(0, 0, 0, 0.75) solid;
+  }
+  .menu2 {
+      text-align: center;
+      font-size: 30px;
+      background-color: rgb(190, 190, 190);
+      padding-top: 20px;
+      padding-bottom: 10px;
+  }
+  .menu2 h1 {
+      background: linear-gradient(to right, #fc4d3b, #9a3476);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+  }
+  .menu2 h2 {
+      background: linear-gradient(to right, #fc4d3b, #9a3476);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+  }
+  * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+  }
+  ul {
+      list-style: none;
+  }
+  a {
+      text-decoration: none;
+      color: whitesmoke;
+  }
+  h1, h2 {
+      font-weight: 300;
+      line-height: 1.2;
+      margin: 10px 0;
+  }
+  p {
+      margin: 10px 0;
+  }
+  img {
+      width: 100%;
+  }
+  .navbar {
+      background-color: rgba(51, 51, 51);
+      height: 70px;
+  }
+  .navbar ul {
+      display: flex;
+  }
+  .navbar a {
+      padding: 10px;
+      margin: 0 5px;
+  }
+  .navbar a:hover {
+      border-bottom: 2px #fff solid;
+  }
+  .navbar .flex {
+      justify-content: space-between;
+  }
+  .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      overflow: auto;
+      padding: 0 40px;
+  }
+  .flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+  }
+  .footer {
+      background-color: #222;
+      padding: 5px;
+  }
+  .cuccok {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.55);
+      margin: 55px 30px;
+      padding: 10px 0;
+      border-radius: 24px;
+  }
+  .warning {
+      background-color: rgb(84, 84, 84);
+      margin: 20px 550px;
+      padding: 10px 0;
+      border-radius: 10px;
+      border-left: darkred solid 15px;
+      text-align: center;
+      display: none;
+  }
+  @media(max-width: 768px) {
+  }
+  @media(max-width: 500px) {
+      .navbar {
+          height: 110px;
+      }
+      .navbar .flex {
+          flex-direction: column;
+      }
+      .navbar ul {
+          padding: 10px;
+          background-color: rgba(0, 0, 0, 0.2);
+      }
+      .warning {
+            margin: 0;
+            margin-top: 20px;
+            padding: 10px;
+      }
+  }
+  @keyframes change{
+      0%{
+          background-position: 0 50%;
+      }
+      50%{
+          background-position: 100% 50%;
+      }
+      100%{
+          background-position: 0 50%;
+      }
+  }
+  .szerverek {
+      margin-top: 55px;
+      margin-bottom: 55px;
+  }
+  .szerverek button{
+      margin-right: 25px;
+      font-size: 50px;
+      border-radius: 35px;
+      padding: 10px;
+      background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+      color: whitesmoke;
+      border: white solid;
+      cursor: pointer;
+  }
+        </style>
+    </head>
 </html>
