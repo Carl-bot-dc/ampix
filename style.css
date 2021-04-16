@@ -130,3 +130,17 @@
           background-position: 0 50%;
       }
   }
+  .szerverek {
+      margin-top: 55px;
+      margin-bottom: 55px;
+  }
+  .szerverek button{
+      margin-right: 25px;
+      font-size: 50px;
+      border-radius: 35px;
+      padding: 10px;
+      background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+      color: whitesmoke;
+      border: white solid;
+      cursor: pointer;
+  }
