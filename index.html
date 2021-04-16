@@ -3,114 +3,14 @@
     <head>
         <title>Ampix</title>
         <meta charset="utf-8">
-        <link href="\assets0/icon2.ico" rel="icon">
-        <link href="\assets0/lathatosag.css" rel="stylesheet">
+        <link href="\assets/icon2.ico" rel="icon">
+        <link href="\style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-        <style type="text/css">
-            body {
-                font-family: 'Poppins', sans-serif;
-                background-color: #111;
-                color: whitesmoke;
-                background-image: url(assets0/bc1.jpg);
-                background-repeat: no-repeat;
-                line-height: 1.6;
-            }
-            * {
-                box-sizing: border-box;
-                padding: 0;
-                margin: 0;
-            }
-            ul {
-                list-style: none;
-            }
-            a {
-                text-decoration: none;
-                color: whitesmoke;
-            }
-            h1, h2 {
-                font-weight: 300;
-                line-height: 1.2;
-                margin: 10px 0;
-            }
-            p {
-                margin: 10px 0;
-            }
-            img {
-                width: 100%;
-            }
-            .navbar {
-                background-color: rgba(51, 51, 51, 0.650);
-                height: 70px;
-            }
-            .navbar ul {
-                display: flex;
-            }
-            .navbar a {
-                padding: 10px;
-                margin: 0 5px;
-            }
-            .navbar a:hover {
-                border-bottom: 2px #fff solid;
-            }
-            .navbar .flex {
-                justify-content: space-between;
-            }
-            .container {
-                max-width: 1100px;
-                margin: 0 auto;
-                overflow: auto;
-                padding: 0 40px;
-            }
-            .flex {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100%;
-            }
-            .footer {
-                margin-top: 50px;
-                background-color: #222;
-            }
-            .cuccok {
-                text-align: center;
-                background-color: rgba(0, 0, 0, 0.55);
-                margin: 55px 30px;
-                padding: 10px 0;
-                border-radius: 24px;
-            }
-            .warning {
-                background-color: rgb(84, 84, 84);
-                margin: 20px 550px;
-                padding: 10px 0;
-                border-radius: 10px;
-                border-left: darkred solid 15px;
-                text-align: center;
-            }
-            @media(max-width: 768px) {
-            }
-            @media(max-width: 500px) {
-                .navbar {
-                    height: 110px;
-                }
-                .navbar .flex {
-                    flex-direction: column;
-                }
-                .navbar ul {
-                    padding: 10px;
-                    background-color: rgba(0, 0, 0, 0.2);
-                }
-                .warning {
-                      margin: 0;
-                      margin-top: 20px;
-                      padding: 10px;
-                }
-            }
-        </style>
+        <link href="assets/cards.css" rel="stylesheet">
     </head>
-    <body>
+    <body class="body1">
         <div class="navbar">
           <div class="container flex">
             <h1 class="logo">Ampix</h1>
@@ -123,10 +23,43 @@
             </nav>
           </div>
         </div>
+        <div class="menu1">
         <h2 class="warning">A weboldal jelenleg fejlesztés alatt áll!</h2>
         <div class="cuccok">
-            <h1>Üdvözöllek!</h1>
+                <h1>Ampix Network</h1>
+                <h2>Magyarország új Minecraft szerverközössége</h2>
+            </div>
         </div>
+        <div class="menu2">
+            <h1>Mit is kell tudni?</h1>
+            <h2>Az Ampix Network egy új szerverközösség ami ezekből áll:</h2>
+            <h1 class="szunet"></h1>
+            <div class="card">
+                <div class="imgBox">
+                  <img src="assets/fullpvp.jpg">
+                  <img src="assets/fullpvp.jpg">
+                </div>
+                <div class="details">
+                  <div class="content">
+                     
+                    <h2>FullPvP<br><span>Szerver</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="card2">
+                <div class="imgBox">
+                  <img src="assets/minigames.jpg">
+                  <img src="assets/minigames.jpg">
+                </div>
+                <div class="details">
+                  <div class="content">
+                     
+                    <h2>Minigames<br><span>Szerver</h2>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
         <footer class="footer">
             <div class="container">
                 <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Ampix</p>
