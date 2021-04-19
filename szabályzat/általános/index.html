@@ -28,20 +28,18 @@
             </div>
         </div>
         <div class="menu2">
-            <h1 class="mencicolor">Minden egy helyen!</h1>
-            <h1 class="mencicolor">Nyomj rá arra amelyiket meg szeretnéd tekinteni</h1>
-            <h2 class="mencicolor">Itt megtalálsz minden szabályzatot!</h2>
-            <div class="szerverek">
-              <button onclick="window.location.href='általános'">Általános</button>
-              <button onclick="window.location.href='minecraft'">Minecraft</button>
-              <button onclick="window.location.href='discord'">Discord</button>
-              <button onclick="window.location.href='csapattag'" class="nincsitt">Csapattag</button>
+            <h1 class="mencicolor">Általános Szabályzat</h1>
+            <h1 class="mencicolor">Alapok amiket mindenhol be kell tartani!</h1>
+            <div class="szabalyzat">
+                  <li>Tilos a trágár / tiszteletlen beszéd</li>
+                  <li>Tartsd tiszteletben mások magán életét</li>
+                  <li>Ne kérkedj / idegesítsd a csapattagokat</li>
+                  <li>Mindig várj türelemmel, és ne kérdezgess senkit</li>
+                  <li>Viselkedj rendesen, tisztelettudóan</li>
             </div>
-            <h2 class="mencicolor">Legutóbbi szerkesztések időpontja:</h2>
-            <li>Általános: 2021.04.19.</li>
-            <li>Minecraft: 2021.04.19.</li>
-            <li>Discord: 2021.04.19.</li>
-            <li class="nincsitt">Csapattag: 2021.04.19.</li>
+            <div class="szerverek">
+              <button onclick="window.location.href='/szabályzat'">Vissza</button>
+            </div>
         </div>
         <footer class="footer">
             <div class="container">
@@ -75,6 +73,13 @@
       background: linear-gradient(to right, #fc4d3b, #9a3476);
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
+  }
+  .szabalyzat {
+        background-color: #333;
+        margin: 35px 95px;
+        border: white solid 5px;
+        border-radius: 20px;
+        padding: 20px 0;
   }
   * {
       box-sizing: border-box;
@@ -174,6 +179,9 @@
       }
       ::-webkit-scrollbar {
       display: none;
+      }
+      .szabalyzat {
+            margin: 0;
       }
   }
   @keyframes change{
