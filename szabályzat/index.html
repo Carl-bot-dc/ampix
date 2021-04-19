@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Ampix</title>
+        <title>Ampix - Szabályzat</title>
         <meta charset="utf-8">
         <link href="\assets/icon2.ico" rel="icon">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,8 +14,8 @@
             <h1 class="logo">Ampix</h1>
             <nav>
                 <ul>
-                    <li><a href="\" style="color: #CBCBCB; border-bottom: 2px #CBCBCB solid;">Kezdőlap</a></li>
-                    <li><a href="\szabályzat">Szabályzat</a></li>
+                    <li><a href="\"">Kezdőlap</a></li>
+                    <li><a href="\szabályzat" style="color: #CBCBCB; border-bottom: 2px #CBCBCB solid;">Szabályzat</a></li>
                     <li><a href="https://dc.ampix.ml">Discord</a></li>
                 </ul>
             </nav>
@@ -24,21 +24,24 @@
         <div class="menu1">
         <h2 class="warning">A weboldal jelenleg fejlesztés alatt áll!</h2>
         <div class="cuccok">
-                <h1>Ampix Network</h1>
-                <h2>Magyarország új Minecraft szerverközössége</h2>
-                <h2>Hamarosan megnyílik viszont addig még sok a munka!</h2>
+                <h1 style="font-size: 50px;">Ampix Szabályzat</h1>
             </div>
         </div>
         <div class="menu2">
-            <h1 class="mencicolor">Mit is kell tudni?</h1>
-            <h2 class="mencicolor">Az Ampix Network egy új szerverközösség ami ezekből fog állni*:</h2>
+            <h1 class="mencicolor">Minden egy helyen!</h1>
+            <h1 class="mencicolor">Nyomj rá arra amelyiket meg szeretnéd tekinteni</h1>
+            <h2 class="mencicolor">Itt megtalálsz minden szabályzatot!</h2>
             <div class="szerverek">
-              <button>FullPvP</button>
-              <button>Minigames</button>
-              <button>Survival</button>
-              <button>Creative</button>
-              <p>* tervezett megjelenés májusban</p>
+              <button onclick="window.location.href='általános'">Általános</button>
+              <button onclick="window.location.href='minecraft'">Minecraft</button>
+              <button onclick="window.location.href='discord'">Discord</button>
+              <button onclick="window.location.href='csapattag'" class="nincsitt">Csapattag</button>
             </div>
+            <h2 class="mencicolor">Legutóbbi szerkesztések időpontja:</h2>
+            <li>Általános: 2021.04.19.</li>
+            <li>Minecraft: 2021.04.19.</li>
+            <li>Discord: 2021.04.19.</li>
+            <li class="nincsitt">Csapattag: 2021.04.19.</li>
         </div>
         <footer class="footer">
             <div class="container">
@@ -135,6 +138,9 @@
       margin: 55px 30px;
       padding: 10px 0;
       border-radius: 24px;
+  }
+  .nincsitt {
+        display: none;
   }
   .warning {
       background-color: rgb(84, 84, 84);
